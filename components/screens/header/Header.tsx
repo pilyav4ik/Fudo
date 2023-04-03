@@ -28,16 +28,16 @@ const Header = () => {
                             <Nav.Link href="#action2">Contact Us</Nav.Link>
                         </Nav>
                         <Form className="d-flex grid gap-2">
-                            <Button variant="btn btn-outline-danger">Sign in</Button>
-                            <Button variant="btn btn-danger">Sign up</Button>
+                            <Button variant="btn btn-outline-danger rounded-3">Sign in</Button>
+                            <Button variant="btn btn-danger rounded-3">Sign up</Button>
                         </Form>
                     </Navbar.Collapse>
 
                 </Navbar>
             </Row>
 
-            <Row>
-                <Col className="header">
+            <Row className="pb-5">
+                <Col className="header col-7">
                     <span className="quality">Quality Food</span>
                     <span className="delivery">
                         Fastest <i>Delivery</i> & Easy <i>Pickup</i>
@@ -56,7 +56,7 @@ const Header = () => {
                         </form>
                     </div>
                 </Col>
-                <Col><Image src={Girl} alt="" /></Col>
+                <Col className="text-end p-0 col-5"><Image src={Girl} alt="" /></Col>
             </Row>
         </Container>
     )
