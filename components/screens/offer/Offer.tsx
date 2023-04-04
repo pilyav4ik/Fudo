@@ -9,7 +9,7 @@ import { BsFillStarFill } from "react-icons/bs"
 const Offer = () => {
     return (
         <>
-            <Container className="offer mt-5">
+            <Container className="offer mt-8 mb-8">
                 <Row>
                     <Col className="col-7 d-flex align-items-left justify-content-left">
                         <div className={style.boxflex}>
