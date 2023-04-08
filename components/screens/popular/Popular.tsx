@@ -1,7 +1,7 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import { BsFillHeartFill, BsCartPlus } from 'react-icons/bs';
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
+import { BsFillHeartFill, BsCartPlus } from 'react-icons/bs'
 import style from './Popular.module.sass'
 import Image from "next/image"
 

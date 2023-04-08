@@ -1,14 +1,12 @@
-import Image from "next/image";
-import { FC } from "react";
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Logo from '../../../public/Logo.png';
-import Girl from '../../../public/Girl.png';
-import { Row, Col } from "react-bootstrap";
+import Image from "next/image"
+import { Col, Row } from "react-bootstrap"
+import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/Container'
+import Form from 'react-bootstrap/Form'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import Girl from '../../../public/Girl.png'
+import Logo from '../../../public/Logo.png'
 
 const Header = () => {
     return (
