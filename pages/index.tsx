@@ -5,7 +5,7 @@ import Popular from "../components/screens/popular/Popular"
 
 export default function Home() {
 
-    const name = process.env.SITE_NAME
+    const name = process.env.NEXT_PUBLIC_SITE_NAME
 
     return (
         <>
